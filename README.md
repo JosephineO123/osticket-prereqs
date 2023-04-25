@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com/watch?v=WRr7XhbUlJg&t=43s)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,34 +22,122 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a Resource Group in Azure portal
+- Create Windows 10 Virtual Machine with 2-4 virtual CPUs
+
+<p>
+<img src="https://i.imgur.com/GorW86e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Resource Group created.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/aLDApD2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Virtual Machine created.
+</p>
+<br />
+
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/w20HKiM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/N1A2KHw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/pBGWXKS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install and enable IIS in Windows with CGI.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EBhpfn9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Rewrite Module.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Lwd2bu5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install PHP Manager for IIS.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/v0gorK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install VC redistributable.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ioDN9vk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install MySQL.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sGBZreZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open IIS as an Admin.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dBwxRI3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Register PHP from within IIS.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/c7tJVeq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install osTicket v1.15.8 and enable extensions.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/zJTDbdW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install osTicket v1.15.8 and enable extensions.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/owrDGyb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install Heidi SQL.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/4nvwKhZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket installed with no complications.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/Uy7quZ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket installed with no complications.
 </p>
 <br />
