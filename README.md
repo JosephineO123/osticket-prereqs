@@ -6,14 +6,10 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com/watch?v=WRr7XhbUlJg&t=43s)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -22,122 +18,126 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a Resource Group in Azure portal
-- Create Windows 10 Virtual Machine with 2-4 virtual CPUs
-
-<p>
-<img src="https://i.imgur.com/GorW86e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Resource Group created.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/aLDApD2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Virtual Machine created.
-</p>
-<br />
-
+- Creation of a Windows 10 Virtual Machine (VM) in Microsoft Azure with 2-4 Virtual CPUs (allow Azure to create a new Virtual Network while creating VM)
+- Remote Desktop application in order to access the VM
+- Install / Enable IIS in the Windows 10 VM
+- Download Web Platform Installer (link provided to me from Course Careers)
+- Open Web Platform Installer, Add MySQL 5.5 and add all simple versions of x86 PHP up until version 7.3
+- Install osticket v1.15.8
+- Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
+- Go to C - inetpub - wwwroot - osTicket - include and rename ost-sampleconfig.php to ost-config.php
+- Open osTicket in your web browser and begin the basic installation process
+- Download and Install HeidiSQL, Create a new session, root/Password1, Connect to the session, Create a database called “osTicket”
+- Finish the installation process and CONGRATS! osTicket should be installed
+- Next is a bit of clean up. Delete: C:\inetpub\wwwroot\osTicket\setup, Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Login to the osTicket Admin Panel
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/N1A2KHw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DDHIUBw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install and enable IIS in Windows with CGI.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/EBhpfn9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Install Rewrite Module.
+VMOSTicket is the Windows 10 Virtual Machine that I made in Azure
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/Lwd2bu5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SAYqYlV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install PHP Manager for IIS.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/v0gorK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Install VC redistributable.
+Since I'm on MacOS, I'll be using the Microsoft Remote Desktop App in order to access the VM. I'll be using the VM's IP Address in order to use Remote Desktop
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/ioDN9vk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s8ZER1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install MySQL.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/sGBZreZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Open IIS as an Admin.
+Go to the Start Menu, Programs, Unistall a Program, Turn Windows Features On or Off, located and checked off Internet Information Services
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dBwxRI3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/npXUXyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Register PHP from within IIS.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/c7tJVeq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Install osTicket v1.15.8 and enable extensions.
+Download Web Platform Installer
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/zJTDbdW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dOUWNhG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install osTicket v1.15.8 and enable extensions.
+Open Web Platform Installer, Add MySQL 5.5 and add all simple versions of x86 PHP up until version 7.3
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5W0uyAV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install osticket v1.15.8
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/owrDGyb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Apj16hR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install Heidi SQL.
-</p>
-<br />
-
-
-<p>
-<img src="https://i.imgur.com/4nvwKhZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-osTicket installed with no complications.
+Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
 </p>
 <br />
 
-
 <p>
-<img src="https://i.imgur.com/Uy7quZ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OCkMydh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket installed with no complications.
+Go to C - inetpub - wwwroot - osTicket - include and rename ost-sampleconfig.php to ost-config.php
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/NXjOkjz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open osTicket in your web browser and begin the basic installation process
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fpOivnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download and Install HeidiSQL 
+Create a new session, root/Password1
+Connect to the session
+Create a database called “osTicket”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/1M3rVcT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finish the installation process and CONGRATS! osTicket should be installed
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Z4rIlOb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next is a bit of clean up. Delete: C:\inetpub\wwwroot\osTicket\setup
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5trEXyf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login to the osTicket Admin Panel
 </p>
 <br />
