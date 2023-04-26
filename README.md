@@ -35,15 +35,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DDHIUBw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RT9V45l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-VMOSTicket is the Windows 10 Virtual Machine that I made in Azure
+Create a resource group in Azure Environment. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/SAYqYlV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w9BdW0k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OwnmOl6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a Windows10 Virtual Machine in Microsoft Azure with 2-4 Virtual CPUs. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/XhCGlcn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Since I'm on MacOS, I'll be using the Microsoft Remote Desktop App in order to access the VM. I'll be using the VM's IP Address in order to use Remote Desktop
