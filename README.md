@@ -63,7 +63,7 @@ Use the Microsoft Remote Desktop App to access the Virtual Machine. Use the VM's
 <img src="https://i.imgur.com/s8ZER1e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to the Start Menu, Programs, Unistall a Program, Turn Windows Features On or Off, located and checked off Internet Information Services
+Go to the Start Menu, Control Panel, Programs(Unistall a Program), Turn Windows Features On or Off, look for Internet Imnformation Services and turn it on. 
 </p>
 <br />
 
