@@ -38,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/RT9V45l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a resource group in Azure Environment. 
+Create a resource group in Microsoft Azure Environment. 
 </p>
 <br />
 
@@ -55,7 +55,7 @@ Create a Windows10 Virtual Machine in Microsoft Azure with 2-4 Virtual CPUs.
 <img src="https://i.imgur.com/XhCGlcn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Since I'm on MacOS, I'll be using the Microsoft Remote Desktop App in order to access the VM. I'll be using the VM's IP Address in order to use Remote Desktop
+Use the Microsoft Remote Desktop App to access the Virtual Machine. Use the VM's IP Address (created in azure environment) in order to use Remote Desktop. Enter in your username and password to access the virtual machine. 
 </p>
 <br />
 
