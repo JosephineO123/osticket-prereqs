@@ -18,19 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Creation of a Windows 10 Virtual Machine (VM) in Microsoft Azure with 2-4 Virtual CPUs (allow Azure to create a new Virtual Network while creating VM)
-- Remote Desktop application in order to access the VM
-- Install / Enable IIS in the Windows 10 VM
-- Download Web Platform Installer (link provided to me from Course Careers)
-- Open Web Platform Installer, Add MySQL 5.5 and add all simple versions of x86 PHP up until version 7.3
-- Install osticket v1.15.8
-- Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
-- Go to C - inetpub - wwwroot - osTicket - include and rename ost-sampleconfig.php to ost-config.php
-- Open osTicket in your web browser and begin the basic installation process
-- Download and Install HeidiSQL, Create a new session, root/Password1, Connect to the session, Create a database called “osTicket”
-- Finish the installation process and CONGRATS! osTicket should be installed
-- Next is a bit of clean up. Delete: C:\inetpub\wwwroot\osTicket\setup, Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-- Login to the osTicket Admin Panel
+- Create a Resource group and Virtual machine in Azure environment. 
 
 <h2>Installation Steps</h2>
 
