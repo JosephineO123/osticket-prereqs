@@ -68,15 +68,15 @@ Go to the Start Menu, Control Panel, Programs(Unistall a Program), Turn Windows 
 <br />
 
 <p>
-<img src="https://i.imgur.com/npXUXyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RdQb7a3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download Web Platform Installer
+Download the Web Platform Installer.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dOUWNhG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ag4mLvS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open Web Platform Installer, Add MySQL 5.5 and add all simple versions of x86 PHP up until version 7.3
@@ -92,10 +92,10 @@ Install osticket v1.15.8
 <br />
 
 <p>
-<img src="https://i.imgur.com/Apj16hR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pSgYKe3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
+Copy the folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. You can find the IIS Manager in the start menu.
 </p>
 <br />
 
@@ -111,7 +111,7 @@ Go to C - inetpub - wwwroot - osTicket - include and rename ost-sampleconfig.php
 <img src="https://i.imgur.com/NXjOkjz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open osTicket in your web browser and begin the basic installation process
+Open osTicket and begin the basic installation process.
 </p>
 <br />
 
@@ -120,9 +120,9 @@ Open osTicket in your web browser and begin the basic installation process
 </p>
 <p>
 Download and Install HeidiSQL 
-Create a new session, root/Password1
+Create a new session, use root/Password1
 Connect to the session
-Create a database called “osTicket”
+Create a database and call it “osTicket”
 </p>
 <br />
 
@@ -130,7 +130,7 @@ Create a database called “osTicket”
 <img src="https://i.imgur.com/1M3rVcT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Finish the installation process and CONGRATS! osTicket should be installed
+Finish the installation process. osTicket is installed. 
 </p>
 <br />
 
@@ -138,7 +138,7 @@ Finish the installation process and CONGRATS! osTicket should be installed
 <img src="https://i.imgur.com/Z4rIlOb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next is a bit of clean up. Delete: C:\inetpub\wwwroot\osTicket\setup
+Delete: C:\inetpub\wwwroot\osTicket\setup
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <br />
